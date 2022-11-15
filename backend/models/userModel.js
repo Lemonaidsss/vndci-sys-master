@@ -24,7 +24,6 @@ const userSchema = mongoose.Schema({
     },
     isAdmin:{
         type: Boolean,
-        default: false,
         required: [true, "Please Choose a Usertype"],
     },
 
